@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/poruke
+content-type: application/json
+
+{
+  "sadrzaj": "Imam sadrzaj",
+  "vazno": true,
+  "glupo": "ne"
+}
