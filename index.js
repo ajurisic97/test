@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 // za env ucitat iz datoteke varijable iz eenv:
-//require('dotenv').config()
+require('dotenv').config()
 const Poruka = require('./models/poruke')
 
 // VJ3
